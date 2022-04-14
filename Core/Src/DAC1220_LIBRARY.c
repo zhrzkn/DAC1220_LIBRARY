@@ -5,24 +5,15 @@
  *      Author: MONSTER
  */
 
-#include "main.c"
 #include "DAC1220_LIBRARY.h"
 
 void SPI_DAC_RESET()
 {
 
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);
-	HAL_GPIO_WritePin(GPIOB,  GPIO_PIN_5, GPIO_PIN_SET);
-	HAL_Delay(264);
+}
 
-	HAL_GPIO_WritePin(GPIOB,  GPIO_PIN_5, GPIO_PIN_RESET);
-	HAL_GPIO_WritePin(GPIOB,  GPIO_PIN_5, GPIO_PIN_SET);
-	HAL_Delay(570);
-
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
-	HAL_Delay(903);
+void SPI_DAC_SELFCAL()
+{
 
 
 }
-

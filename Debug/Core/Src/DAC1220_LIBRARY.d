@@ -1,0 +1,4 @@
+Core/Src/DAC1220_LIBRARY.o: ../Core/Src/DAC1220_LIBRARY.c \
+ ../Core/Inc/DAC1220_LIBRARY.h
+
+../Core/Inc/DAC1220_LIBRARY.h:
