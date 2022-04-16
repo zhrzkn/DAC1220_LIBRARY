@@ -8,10 +8,6 @@
 #ifndef INC_DAC1220_LIBRARY_H_
 #define INC_DAC1220_LIBRARY_H_
 
-#define W_REGISTER_1Byte    0x1X
-#define W_REGISTER_2Byte    0x2X
-#define W_REGISTER_3Byte    0x3X
-
 /*Register Memory Map*/
 
 #define DIR_Byte2  0x00
